@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 2</title>
+        <link rel = "stylesheet" href = "myStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="row align-items-center h-100">
+            <div class="col-6 mx-auto">
+                <div class="container" id="full">
+                    <div class="container text-center" id="header">
+                        <h2 id="headerText">Activity # 2: Calculator Converter</h3>
+                    </div>                  
+                    <div class="container" id="body">
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="value">Enter Value:</label>
+                                    <input type="text" class="form-control" id="value" name="value">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-6 text-center">
+                                    <input type="button" class="btn btn-lg" id="orange" value="Inches to Centimeters" onclick="clickA()">
+                                </div>
+                                <div class="col-sm-6 text-center">
+                                    <input type="button" class="btn btn-lg" id="pink" value="Centimeters to Inches" onclick="clickB()">
+                                </div>
+                            </div>
+                            <br>
+                            <div class= "row">
+                                <div class="col-sm-6 text-center">
+                                    <input type="button" class="btn btn-lg" id="pink" value="Kilometers to Miles" onclick="clickC()">
+                                </div>
+                                <div class="col-sm-6 text-center">
+                                    <input type="button" class="btn btn-lg" id="orange" value="Miles to Kilometers" onclick="clickD()">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <div class="container text-center" id="footer">
+                        <h4 id="text"><i>Here will show the result.</i></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="myJS.js"></script>
+    </body>
+</html>
